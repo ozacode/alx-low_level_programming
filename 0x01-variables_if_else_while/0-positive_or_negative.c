@@ -1,7 +1,3 @@
-
-
-                                                                 
-
 #include <stdio.h>                                               
 
                                                                  
@@ -48,8 +44,20 @@ printf("%1 is positive\n", n);
 
 else if (n == 0)                                                 
 
-{    print(%1 is zero\n",n);                                     
+{    print("%1 is zero\n",n);                                     
 
-}
-else if (n < 0)
-{
+}                               
+
+                                                                
+
+else if (n < 0)                                                  
+
+{                                                                
+
+printf ("%1 is negative\n", n);                                  
+
+}                                                                
+
+return (0);                                                      
+
+}   
