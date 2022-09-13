@@ -1,48 +1,48 @@
-#include <stdio.h>                                                                         
+#include <stdio.h>
 
-                                                                                           
 
-/**                                                                                        
 
-*main - print the string in the put function                                               
+/**
 
-*                                                                                          
+*main - print the string in the put function
 
-*Description: using the main function                                                      
+*
 
-*this program prints "Programming is like building a multilingual puzzle                   
+*Description: using the main function
 
-*Return: 0                                                                                 
+*this program prints "Programming is like building a multilingual puzzle
 
-*/                                                                                         
+*Return: 0
 
-int main(void)                                                                             
+*/
 
-{                                                                                          
+int main(void)
 
-char c;                                                                                    
+{
 
-int i;                                                                                     
+            char c;
 
-long li;                                                                                   
+            int i;
 
-long long lli;                                                                             
+            long li;
 
-float f;                                                                                   
+            long long lli;
 
-                                                                                           
+            float f;
 
-printf("size of a char: %1d byte(s)\n", sizeof(c));                                        
 
-printf("size of an int: %1d byte(s)\n", sizeof(i));                                        
 
-printf("size of a long int: %1d byte(s)\n", sizeof(li));                                     
+            printf("size of a char: %1d byte(s)\n", sizeof(c));
 
-printf("size of a long long int: %1d byte(s)\n", sizeof(lli));                              
+            printf("size of an int: %1d byte(s)\n", sizeof(i));
 
-printf("size of a float: %1d byte(s)\n", sizeof(f));                                       
+            printf("size of a long int: %1d byte(s)\n", sizeof(li));
 
-return (0);                                                                                
+            printf("size of a long long int: %1d byte(s)\n", sizeof(lli));
 
-}                                                                                          
+            printf("size of a float: %1d byte(s)\n", sizeof(f));
+
+            return (0);
+
+}
 
