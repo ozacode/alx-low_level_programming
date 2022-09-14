@@ -2,11 +2,10 @@
 
 
 
-/** main - print putchar
-
- * Return: always 0
-
- */
+/**
+*main - prints putchar
+* Return: always 0
+* /
 
 
 
