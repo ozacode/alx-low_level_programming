@@ -1,17 +1,9 @@
 #include <stdio.h>
-
 #include "main.h"
-
-
-
 /**
-
-*print_line - prints a straight line
-
-*@n: parameter
-
-*Return:returns nothing
-
+* print_line - prints a straight line
+* @n: parameter
+* Return:returns nothing
 */
 
 
