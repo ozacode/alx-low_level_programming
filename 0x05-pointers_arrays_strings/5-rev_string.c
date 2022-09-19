@@ -5,21 +5,15 @@
 
 
 /**
-
 * rev_string - Reverses a string
-
 * @s: string to be reversed
-
 *
-
 * Return: nothing
-
 */
 
 
 
 void rev_string(char *s)
-
 {
 
 	int i, tmp, len = _strlen(s);
