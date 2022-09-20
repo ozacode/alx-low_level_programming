@@ -14,9 +14,11 @@ int main(void)
 
 {
 	char c;
-	int i;long li;
+	int i;
+	long li;
 	long long lli;
 	float f;
+
 	printf("size of a char: %1d byte(s)\n", sizeof(c));
 	printf("size of an int: %1d byte(s)\n", sizeof(i));
 	printf("size of a long int: %1d byte(s)\n", sizeof(li));
