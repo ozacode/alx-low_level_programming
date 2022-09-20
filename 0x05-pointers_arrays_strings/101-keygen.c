@@ -9,14 +9,10 @@
 
 
 /**
-
- * main - entry point
-
- *
-
- * Return: generated password
-
- */
+* main - entry point
+*
+* Return: generated password
+*/
 
 
 
