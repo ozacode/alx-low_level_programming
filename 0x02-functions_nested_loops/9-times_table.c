@@ -1,15 +1,7 @@
 #include "main.h"
-#include "main.h"
 /**
 * times_table - Prints the 0 times table, starting with 0.
-* main - check the code for Holberton School students.
-* 
-* Return: Always 0
 */
-int main(void)
-{
-		times_table();
-
 void times_table(void)
 {
 
@@ -32,5 +24,4 @@ void times_table(void)
 		}
                 _putchar('\n');
 	}
-	return (0); 
 }
