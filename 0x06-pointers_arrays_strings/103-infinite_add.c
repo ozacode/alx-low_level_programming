@@ -9,6 +9,7 @@
  * Return: address of r or 0
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
+
 {
 	int i, j, k, l, m, n;
 	
@@ -18,8 +19,10 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		;
 	if (i > size_r || j > size_r)
 		return (0);
+
 	m = 0;
 	for (i -= 1, j -= 1, k = 0; k < size_r - 1; i--, j--, k++)
+
 	{
 		n = m;
 		if (i >= 0)
@@ -37,6 +40,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	if (i >= 0 || j >= 0 || m)
 		return (0);
 	for (k -= 1, l = 0; l < k; k--, l++)
+
 	{
 		m = r[k];
 		r[k] = r[l];
