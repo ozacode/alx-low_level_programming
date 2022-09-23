@@ -18,9 +18,7 @@ char *leet(char *str)
 
 		{
 			if (str[index1] == leet[index2] ||
-
 					str[index1] - 32 == leef[index2])
-
 				str[index1] = index2 + '0';
 		}
 
