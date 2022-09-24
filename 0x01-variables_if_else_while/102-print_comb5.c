@@ -1,35 +1,36 @@
 #include <stdio.h>
 /**
-* main - print possible combination of two 2-digit
-* numbers
-*
-* Return: returns zero at the end
-*/
+ * main - program that prints all possible different combinations of 3 digits.
+ * Return: 0
+ */
 int main(void)
 {
-int i, p;
+	int c = 0;
+	int f_d;
+	int m_d;
+	int l_d;
 
-for (i = 0; i < 100; i++)
-{
-for (p = 0; p < 100; i++)
-{
-if (p > i)
-{
-putchar((i / 10) + '0');
-putchar((i % 10) + '0');
-putchar(' ');
-putchar((p / 10) + '0');
-putchar((p % 10) + '0');
-if (i != 98)
+	while (c <= 999)
+	{
+		f_d = (c / 100 + '0');
+		m_d = (c / 10 % 10 + '0');
+		l_d = (c % 10 + '0');
 
-{
-putchar(',');
-putchar(' ');
+		if ((f_d < m_d) && (m_d < l_d))
+		{
+			putchar(f_d);
+			putchar(m_d);
+			putchar(l_d);
 
-}
-}
-}
-}
+			if (c != 789)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+		c++;
+	}
 putchar('\n');
 return (0);
 }
+
