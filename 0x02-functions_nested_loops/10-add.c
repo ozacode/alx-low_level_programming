@@ -1,59 +1,14 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
-* main - program that prints all possible different combinations of 2 digits
-* Return: 0
-*/
-
-int main(void)
-
+ * add - Adds two integers.
+ * @num1: The first integer to be added.
+ * @num2: The second integer to be added.
+ *
+ * Return: The result of the addition.
+ */
+int add(int num1, int num2)
 {
-
-	int c = 0;
-
-	int f_d;
-
-	int l_d;
-
-
-
-	while (c <= 99)
-
-	{
-
-		f_d = (c / 10 + '0');
-
-		l_d = (c % 10 + '0');
-
-
-
-		if (f_d < l_d)
-
-		{
-
-			putchar(f_d);
-
-			putchar(l_d);
-
-
-
-			if (c != 89)
-
-			{
-
-				putchar(',');
-
-				putchar(' ');
-
-			}
-
-		}
-
-		c++;
-
-	}
-
-putchar('\n');
-
-return (0);
-
+	return (num1 + num2);
 }
+
