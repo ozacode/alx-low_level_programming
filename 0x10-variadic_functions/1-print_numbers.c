@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
-* Auth: Ozacode M
+* Auth: ivan
 * print_numbers - Prints numbers, followed by a new line.
 * @separator: The string to be printed between numbers.
 * @n: The number of integers passed to the function.
