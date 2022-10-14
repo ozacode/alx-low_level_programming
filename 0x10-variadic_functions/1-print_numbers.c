@@ -3,7 +3,6 @@
 #include <stdarg.h>
 
 /**
-* File: 1 -print_numbers.c
 * Auth: Ozacode M
 * print_numbers - Prints numbers, followed by a new line.
 * @separator: The string to be printed between numbers.
