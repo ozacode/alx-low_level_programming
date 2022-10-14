@@ -1,13 +1,10 @@
-/**
-* File: 1-print_numbers.c
-* Auth: Ozacode M 
-*/
-
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
 
 /**
+* File: 1-print_numbers.c
+* Auth: Ozacode M
 * print_numbers - Prints numbers, followed by a new line.
 * @separator: The string to be printed between numbers.
 * @n: The number of integers passed to the function.
